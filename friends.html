@@ -8,6 +8,7 @@
       src="https://kit.fontawesome.com/4fbb17cbb0.js"
       crossorigin="anonymous"
     ></script>
+    <link rel="stylesheet" href="css/styles.css" />
     <title>friends</title>
   </head>
   <body>
@@ -39,21 +40,27 @@
     </header>
     <main class="friends">
       <header class="friends__header friend friedn--lg">
-        <div class="friend__column me">
-          <img src="image/avatar.jpg" class="me__avatar g-avatar" />
+        <div class="friend__column me profile-flex">
+          <img
+            src="image/avatar.jpg"
+            class="me__friend friend__avatar g-avatar"
+          />
           <div class="me__content">
-            <span class="me__name">LeeGeonWoo</span>
-            <span class="me__status">Donzoko</span>
+            <span class="me__name friend-name">LeeGeonWoo</span>
+            <span class="me__status friend-status">Donzoko</span>
           </div>
         </div>
         <div class="friend__column"></div>
       </header>
+      <h5 class="friend__plus-friend-title">Plus Friend</h5>
       <div class="friends__plus-friend friend">
-        <h5 class="friend__plus-friend-title">Plus Friend</h5>
-        <div class="friend__column plus-friend">
-          <img src="image/avatar.jpg" class="plus-friend__avatar g-avatar" />
+        <div class="friend__column plus-friend profile-flex">
+          <img
+            src="image/avatar.jpg"
+            class="plus-friend__avatar friend__avatar"
+          />
           <div class="plus-friend__content">
-            <span class="plus-friend__name">Plus Friend</span>
+            <span class="plus-friend__name friend-name">Plus Friend</span>
           </div>
         </div>
         <div class="friends__column"></div>
@@ -61,11 +68,13 @@
       <ul class="friends__list">
         <h5 class="friends__list-title">Friends 14</h5>
         <li class="friends__friend friend">
-          <div class="friend__column">
-            <img src="image/avatar.jpg" class="friend__avatar g-avatar" />
+          <div class="friend__column profile-flex">
+            <img src="image/avatar.jpg" class="friend__avatar" />
             <div class="friend__content">
-              <span class="friend__name">김지수</span>
-              <span class="friend__status">Every wall is door</span>
+              <span class="friend__name friend-name">김지수</span>
+              <span class="friend__status friend-status"
+                >Every wall is door</span
+              >
             </div>
           </div>
           <div class="friend__column now-listening">

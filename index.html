@@ -8,6 +8,7 @@
       src="https://kit.fontawesome.com/4fbb17cbb0.js"
       crossorigin="anonymous"
     ></script>
+    <link rel="stylesheet" href="css/styles.css" />
     <title>Chats Kakao Clone</title>
   </head>
   <body>
@@ -42,12 +43,12 @@
     <main class="chats">
       <ul class="chats__list">
         <a href="chat.html"
-          ><li class="chats__chat chat">
-            <div class="chat__column">
-              <img class="chat__avatar" src="image/avatar.jpg" />
+          ><li class="chats__chat chat friend">
+            <div class="chat__column profile-flex">
+              <img class="chat__avatar friend__avatar" src="image/avatar.jpg" />
               <div class="chat__content">
-                <span class="chat__user-name">Lynn</span>
-                <span class="chat__preview">Going Home!</span>
+                <span class="chat__user-name friend-name">Lynn</span>
+                <span class="chat__preview friend-status">Going Home!</span>
               </div>
             </div>
             <div class="chat__column">
@@ -66,8 +67,8 @@
         </li>
         <li class="nav__list-item">
           <a href="index.html" class="nav__list-link"
-            ><i class="fas fa-comment"></i
-          ></a>
+            ><i class="fas fa-comment"> <div class="nav__badge">8</div></i></a
+          >
         </li>
         <li class="nav__list-item">
           <a href="find.html" class="nav__list-link"

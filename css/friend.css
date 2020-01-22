@@ -1,0 +1,25 @@
+.friend {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.friend__avatar {
+  width: 50px;
+  border-radius: 35%;
+  margin-right: 15px;
+}
+.g-avatar {
+  width: 70px;
+}
+.profile-flex {
+  display: flex;
+  align-items: center;
+}
+.friend-name {
+  display: block;
+  margin-bottom: 10px;
+}
+.friend-status {
+  opacity: 0.6;
+  font-size: 13px;
+}
